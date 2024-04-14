@@ -3,7 +3,7 @@ If any private key with non zero balance is found (very unlikely), this code mak
 This code displays live progress of private key scanning along with corresponding eth balance on the python window.
 
 requirements- 
-1. pip install aiohttp
+1. pip install aiohttp, requests, asyncio, random, os.
 2. etherscan api key (free api key is available on etherscan.io) replace 'x' on line 7 of "eth random key scan main.py"
 
 The free api key provided by etherscan has a limit of 5 calls per ip per second, so i have modified this code to match this limit.
